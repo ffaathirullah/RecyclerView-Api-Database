@@ -24,6 +24,7 @@ class ListAdapter(private val userArrayList: ArrayList<User>) : RecyclerView.Ada
         val user = userArrayList[position]
         viewHolder.itemView.setOnClickListener {
             val intent = Intent(context, Detail::class.java)
+            intent.putExtra("DATA_USER", user)
             context!!.startActivity(intent)
         }
 
