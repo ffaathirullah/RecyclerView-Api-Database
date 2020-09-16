@@ -1,28 +1,30 @@
 package org.d3if1008.androidexpert
 
 import android.annotation.SuppressLint
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import java.util.ArrayList
+import java.util.*
 
 class MainActivity : AppCompatActivity() {
+
     lateinit var rv: RecyclerView
     private val userArrayList = ArrayList<User>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-            setList()
-            setData()
-        }
+        setList()
+        setData()
+    }
 
     fun setList() {
         rv = findViewById(R.id.rv)
         rv.setLayoutManager(LinearLayoutManager(this))
         val listAdapter = ListAdapter(userArrayList)
         rv.setAdapter(listAdapter)
+        rv.setHasFixedSize(true)
     }
 
     fun setData() {

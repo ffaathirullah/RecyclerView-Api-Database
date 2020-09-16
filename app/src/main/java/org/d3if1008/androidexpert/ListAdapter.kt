@@ -25,7 +25,7 @@ class ListAdapter(private val userArrayList: ArrayList<User>) : RecyclerView.Ada
         viewHolder.itemView.setOnClickListener {
             val intent = Intent(context, Detail::class.java)
             intent.putExtra("DATA_USER", user)
-            context!!.startActivity(intent)
+            context?.startActivity(intent)
         }
 
         viewHolder.img_user.setImageResource(user.avatar)
