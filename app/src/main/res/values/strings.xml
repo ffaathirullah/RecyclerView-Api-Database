@@ -1,3 +1,121 @@
 <resources>
-    <string name="app_name">AndroidExpert</string>
+    <string name="app_name">Android Clean Code</string>
+    <string name="name">Paul Pogba</string>
+    <string name="username">Pogba</string>
+    <string name="company">Manchester United</string>
+    <string name="location">Lagny-sur-Marne, France</string>
+    <string name="following">Following</string>
+    <string name="_12">14</string>
+    <string name="_56995">2099</string>
+    <string name="followers">Followers</string>
+    <string name="_102">408</string>
+    <string name="repository">Repository</string>
+    <string name="google">Google</string>
+    <string name="company_text">Company :</string>
+    <string name="location_text">Location :</string>
+
+    <string-array name="username">
+        <item>Pogba</item>
+        <item>van de Beek</item>
+        <item>Ighalo</item>
+        <item>Fernandes</item>
+        <item>Rashford</item>
+        <item>Martial</item>
+        <item>Maguire</item>
+        <item>Henderson</item>
+        <item>De Gea</item>
+        <item>Lingard</item>
+    </string-array>
+
+    <string-array name="name">
+        <item>Paul Pogba</item>
+        <item>Donny van de Beek</item>
+        <item>Odion Ighalo</item>
+        <item>Bruno Fernandes</item>
+        <item>Marcus Rashford</item>
+        <item>Anthony Martial</item>
+        <item>Harry Maguire</item>
+        <item>Dean Henderson</item>
+        <item>David de Gea</item>
+        <item>Jesse Lingard</item>
+    </string-array>
+
+    <string-array name="location">
+        <item>Lagny-sur-Marne, France</item>
+        <item>Nijkerkerveen, Netherlands</item>
+        <item>Wibsey, Bradford, United Kingdom</item>
+        <item>Maia, Portugal</item>
+        <item>Wythenshawe, United Kingdom</item>
+        <item>Massy, France</item>
+        <item>Sheffield, United Kingdom</item>
+        <item>Whitehaven, United Kingdom</item>
+        <item>Madrid, Spain</item>
+        <item>Warrington, United Kingdom</item>
+    </string-array>
+
+    <string-array name="repository">
+        <item>40</item>
+        <item>50</item>
+        <item>0</item>
+        <item>2</item>
+        <item>3</item>
+        <item>40</item>
+        <item>43</item>
+        <item>27</item>
+        <item>47</item>
+        <item>58</item>
+    </string-array>
+
+    <string-array name="company">
+        <item>Manchester United</item>
+        <item>Manchester City</item>
+        <item>Tottenham Hostpur</item>
+        <item>Real Madrid</item>
+        <item>Barcelona</item>
+        <item>Real Betis</item>
+        <item>Arsenal</item>
+        <item>Chelsea</item>
+        <item>Liverpool</item>
+        <item>Leichester</item>
+    </string-array>
+
+    <string-array name="followers">
+        <item>56995</item>
+        <item>5153</item>
+        <item>7972</item>
+        <item>14725</item>
+        <item>788</item>
+        <item>18628</item>
+        <item>277</item>
+        <item>178</item>
+        <item>428</item>
+        <item>465</item>
+    </string-array>
+
+    <string-array name="following">
+        <item>40</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+        <item>110</item>
+        <item>120</item>
+        <item>130</item>
+        <item>140</item>
+    </string-array>
+
+    <string-array name="avatar">
+        <item>@drawable/user1</item>
+        <item>@drawable/user2</item>
+        <item>@drawable/user3</item>
+        <item>@drawable/user4</item>
+        <item>@drawable/user5</item>
+        <item>@drawable/user6</item>
+        <item>@drawable/user7</item>
+        <item>@drawable/user8</item>
+        <item>@drawable/user9</item>
+        <item>@drawable/user10</item>
+    </string-array>
+
 </resources>
